@@ -14,18 +14,18 @@
 
 ### Technologies
 
-1. [**MUI**]("https://mui.com/"): The React component library
+1. [**MUI**](https://mui.com) The React component library
    - creating website layout
    - grid view of components
    - creating themes
-2. [**i18next**]("https://www.i18next.com/"): Internationalization-framework written in and for JavaScript
+2. [**i18next**](https://www.i18next.com/): Internationalization-framework written in and for JavaScript
    - i18next initialization
    - creating translations
    - non-components translated (.ts files)
-3. [**Redux**]("https://react-redux.js.org/"): Library for managing and centralizing application state
+3. [**Redux**](https://react-redux.js.org/): Library for managing and centralizing application state
    - used to store simple values
    - real potential can be used in the further development of the project
-4. [**React Router**]("https://reactrouter.com/en/main"): "Client side routing"
+4. [**React Router**](https://reactrouter.com/en/main): "Client side routing"
 
 ### Functionality
 
@@ -47,7 +47,7 @@
 - **types**: global shared types
 - **utils**: global shared utils funcitons
 
-[more about react project folder structure]("https://github.com/GeneralSting/Frontend-documentation/blob/main/React/React%20folder%20structure.md")
+[more about react project folder structure](https://github.com/GeneralSting/Frontend-documentation/blob/main/React/React%20folder%20structure.md)
 
 #### Layout
 
