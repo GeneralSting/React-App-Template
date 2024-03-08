@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useAppDispatch, useAppSelector } from "../../../hooks/storeHooks";
 import { fetchCountries } from "../data/countriesSlice";
-import Box from "@mui/material/Box";
+import { Box } from "@mui/material";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import NoDataMsg from "../../../components/NoDataMsg";
