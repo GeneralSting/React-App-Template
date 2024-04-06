@@ -34,7 +34,6 @@
 - **@types**: type-safe translations i18next for TypeScript
 - **components**: global shared components
 - **features**: This folder contains the core functionalities and distinct features of the project. Each feature folder represents a specific aspect or capability of the application, encapsulating related components, logic, and resources.
-  - **countries**: example of how to continue with further development :x:
   - **headerOptions**: logic contained on app's header. Change user preferences - theme and translation
   - **languages**: languages/translations that app support
   - **themes**: themes that app support
@@ -43,7 +42,7 @@
 - **models**: global shared models
 - **pages**: main content
 - **routes**: pages routes
-- **service**: main shared service, example of how to construct app API logic :x:
+- **service**: main api service, api service extends default abstract api class
 - **types**: global shared types
 - **utils**: global shared utils funcitons
 

@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import appRoutes from "./routes/AppRoutes";
-import { CssBaseline, Grid, ThemeProvider } from "@mui/material";
+import CssBaseline from "@mui/material/CssBaseline";
+import { Grid, ThemeProvider } from "@mui/material";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
 import { useAppSelector } from "./hooks/storeHooks";

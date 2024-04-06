@@ -4,7 +4,7 @@ abstract class ApiService {
   protected readonly apiUrl: string;
 
   constructor() {
-    this.apiUrl = `https://date.nager.at/api/v3/`;
+    this.apiUrl = ``; // API url
   }
 
   private async handleErrors<TData>(response: Response): Promise<TData> {
