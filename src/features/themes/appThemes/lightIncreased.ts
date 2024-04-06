@@ -1,6 +1,7 @@
-import { Theme, createTheme } from "@mui/material";
+import { Theme, createTheme, responsiveFontSizes } from "@mui/material";
+import i18next from "i18next";
 
-export const lightIncreased: Theme = createTheme({
+export const lightIncreasedTheme: Theme = createTheme({
   palette: {
     background: {
       paper: "#f2f2f2",
@@ -15,27 +16,27 @@ export const lightIncreased: Theme = createTheme({
     fontWeightMedium: 500,
     fontWeightBold: 700,
     h1: {
-      fontSize: "2.625rem", // 16px + 2px = 18px
+      fontSize: "6rem", // 16px + 2px = 18px
       fontWeight: 700,
     },
     h2: {
-      fontSize: "2.25rem", // 16px + 2px = 18px
+      fontSize: "4rem", // 16px + 2px = 18px
       fontWeight: 700,
     },
     h3: {
-      fontSize: "2rem", // 16px + 2px = 18px
+      fontSize: "3.25rem", // 16px + 2px = 18px
       fontWeight: 700,
     },
     h4: {
-      fontSize: "1.875rem", // 16px + 2px = 18px
+      fontSize: "2.25rem", // 16px + 2px = 18px
       fontWeight: 700,
     },
     h5: {
-      fontSize: "1.75rem", // 16px + 2px = 18px
+      fontSize: "1.6rem", // 16px + 2px = 18px
       fontWeight: 700,
     },
     h6: {
-      fontSize: "1.625rem", // 16px + 2px = 18px
+      fontSize: "1.3rem", // 16px + 2px = 18px
       fontWeight: 700,
     },
     subtitle1: {
@@ -71,5 +72,12 @@ export const lightIncreased: Theme = createTheme({
   },
 });
 
-export const lightIncreasedCode = "lightThemeIncreased";
-export const lightIncreasedName = "Light Theme Increased";
+const lightIncreased = responsiveFontSizes(lightIncreasedTheme);
+
+const lightIncreasedName = (): string => {
+  return i18next.t("themes.lightIncreased");
+};
+
+const lightIncreasedCode = "lightThemeIncreased";
+
+export { lightIncreased, lightIncreasedCode, lightIncreasedName };
