@@ -16,56 +16,56 @@ export const lightIncreasedTheme: Theme = createTheme({
     fontWeightMedium: 500,
     fontWeightBold: 700,
     h1: {
-      fontSize: "6rem", // 16px + 2px = 18px
+      fontSize: "6rem",
       fontWeight: 700,
     },
     h2: {
-      fontSize: "4rem", // 16px + 2px = 18px
+      fontSize: "4rem",
       fontWeight: 700,
     },
     h3: {
-      fontSize: "3.25rem", // 16px + 2px = 18px
+      fontSize: "3.25rem",
       fontWeight: 700,
     },
     h4: {
-      fontSize: "2.25rem", // 16px + 2px = 18px
+      fontSize: "2.25rem",
       fontWeight: 700,
     },
     h5: {
-      fontSize: "1.6rem", // 16px + 2px = 18px
+      fontSize: "1.6rem",
       fontWeight: 700,
     },
     h6: {
-      fontSize: "1.3rem", // 16px + 2px = 18px
+      fontSize: "1.3rem",
       fontWeight: 700,
     },
     subtitle1: {
-      fontSize: "1.5rem", // 16px + 2px = 18px
+      fontSize: "1.5rem",
       fontWeight: 400,
     },
     subtitle2: {
-      fontSize: "1.375rem", // 16px + 2px = 18px
+      fontSize: "1.375rem",
       fontWeight: 400,
     },
     body1: {
-      fontSize: "1.25rem", // 16px + 2px = 18px
+      fontSize: "1.25rem",
       fontWeight: 400,
     },
     body2: {
-      fontSize: "1.125rem", // 16px + 2px = 18px
+      fontSize: "1.125rem",
       fontWeight: 400,
     },
     button: {
-      fontSize: "1.125rem", // 16px + 2px = 18px
+      fontSize: "1.125rem",
       fontWeight: 500,
       textTransform: "none",
     },
     caption: {
-      fontSize: "1rem", // 16px + 2px = 18px
+      fontSize: "1rem",
       fontWeight: 400,
     },
     overline: {
-      fontSize: "1rem", // 16px + 2px = 18px
+      fontSize: "1rem",
       fontWeight: 400,
       textTransform: "uppercase",
     },
