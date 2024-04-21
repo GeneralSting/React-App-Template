@@ -16,7 +16,7 @@
     "solarized": "Solarized Theme"
   },
   "header": {
-    "title": "Global Holidays",
+    "title": "App Name",
     "options": {
       "title": "Change options",
       "themeLabel": "Theme",
@@ -27,6 +27,6 @@
     "hello": "Hello World"
   },
   "footer": {
-    "message": "© Copyright GH"
+    "message": "© Copyright Abbr"
   }
 }

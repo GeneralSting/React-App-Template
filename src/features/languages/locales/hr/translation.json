@@ -16,7 +16,7 @@
     "solarized": "Solarizirana Tema"
   },
   "header": {
-    "title": "Global Holidays",
+    "title": "Naziv Aplikacije",
     "options": {
       "title": "Izmjena opcija",
       "themeLabel": "Tema",
@@ -27,6 +27,6 @@
     "hello": "Pozdrav svijete"
   },
   "footer": {
-    "message": "© Autorsko pravo GH"
+    "message": "© Autorsko pravo Skraćenica"
   }
 }
