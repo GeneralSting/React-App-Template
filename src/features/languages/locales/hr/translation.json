@@ -3,27 +3,46 @@
     "name": "Croatian",
     "localeName": "Hrvatski",
     "abbr": "cro",
-    "localeAbbr": "hr"
+    "localeAbbr": "hr",
+    "localeDateCode": "hr"
   },
+
   "languages": {
     "en": "Engleski",
     "hr": "Hrvatski"
   },
+
   "themes": {
     "light": "Svjetla Tema",
     "lightIncreased": "Svjetla Tema Povećano",
     "dark": "Tamna Tema",
     "solarized": "Solarizirana Tema"
   },
+
   "header": {
     "title": "Naziv Aplikacije",
+    "titleShort": "Naziv",
     "options": {
-      "title": "Izmjena opcija",
+      "tooltipTitle": "Preferencije korisnika",
+      "title": "Promjeni preferencije",
       "themeLabel": "Tema",
       "languageLabel": "Jezik"
     }
   },
+
+  "footer": {
+    "copyright": "© Autorsko Pravo Apk.",
+    "copyrightLink": "https://github.com/GeneralSting/React-App-Template"
+  },
+
   "pages": {
+    "root": {
+      "hello": "Pozdrav Svijete"
+    },
+    "notFound": {
+      "title": "Stranica ne postoji!",
+      "returnBtn": "Povratak"
+    },
     "test-1": {
       "routeName": "stranica-test-1",
       "text": "Ovo je stranica: Test-1"
@@ -32,11 +51,5 @@
       "routeName": "stranica-test-2",
       "text": "Ovo je stranica: Test-2"
     }
-  },
-  "main": {
-    "hello": "Pozdrav svijete"
-  },
-  "footer": {
-    "message": "© Autorsko pravo Skraćenica"
   }
 }

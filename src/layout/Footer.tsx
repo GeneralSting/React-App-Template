@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <Typography align="center" p={0.4} variant="h5" id="footer-text">
       <a
-        href={"https://github.com/GeneralSting/React-App-Template"}
+        href={t("footer.copyrightLink")}
         target="_blank"
         rel="noopener noreferrer"
         className="footer-link"
       >
-        {t("footer.message")}
+        {t("footer.copyright")}
       </a>{" "}
     </Typography>
   );

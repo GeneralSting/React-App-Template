@@ -1,5 +1,8 @@
+import { useTranslation } from "react-i18next";
+
 const Test1 = () => {
-  return <h1>This is page: Test-1</h1>;
+  const { t } = useTranslation();
+  return <h1>{t("pages.test-1.text")}</h1>;
 };
 
 export default Test1;

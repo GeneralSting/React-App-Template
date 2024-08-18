@@ -3,27 +3,46 @@
     "name": "English",
     "localeName": "English",
     "abbr": "en",
-    "localeAbbr": "en"
+    "localeAbbr": "en",
+    "localeDateCode": "en-GB"
   },
+
   "languages": {
     "en": "English",
     "hr": "Croatian"
   },
+
   "themes": {
     "light": "Light Theme",
     "lightIncreased": "Light Theme Increased",
     "dark": "Dark Theme",
     "solarized": "Solarized Theme"
   },
+
   "header": {
-    "title": "App Name",
+    "title": "App Name Title",
+    "titleShort": "Title",
     "options": {
-      "title": "Change options",
+      "tooltipTitle": "User preferences",
+      "title": "Change preferences",
       "themeLabel": "Theme",
       "languageLabel": "Language"
     }
   },
+
+  "footer": {
+    "copyright": "© Copyright Abbr",
+    "copyrightLink": "https://github.com/GeneralSting/React-App-Template"
+  },
+
   "pages": {
+    "root": {
+      "hello": "Hello World"
+    },
+    "notFound": {
+      "title": "Page Not Found!",
+      "returnBtn": "Return Home"
+    },
     "test-1": {
       "routeName": "page-test-1",
       "text": "This is page: Test-1"
@@ -32,11 +51,5 @@
       "routeName": "page-test-2",
       "text": "This is page: Test-2"
     }
-  },
-  "main": {
-    "hello": "Hello World"
-  },
-  "footer": {
-    "message": "© Copyright Abbr"
   }
 }
