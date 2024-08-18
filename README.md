@@ -40,8 +40,8 @@
 - **hooks**: global shared hooks
 - **layout**: fixed layouts of website
 - **models**: global shared models
-- **pages**: main content
-- **routes**: pages routes
+- **pages**: main content & test pages
+- **routes**: pages routes & dynamic routes
 - **service**: main api service, api service extends default abstract api class
 - **types**: global shared types
 - **utils**: global shared utils funcitons
@@ -52,6 +52,12 @@
 
 - app has basic layout with header and footer components fixed, part which changes is main content represented as pages
 - app layout supported via **MUI grid**
+
+##### Layout Main Grid
+
+![rat-screen](https://github.com/user-attachments/assets/d5353b0d-9359-4ce3-a2bc-c81c4cac8e63)
+
+![rat-compact](https://github.com/user-attachments/assets/f79f3714-02e2-43b5-ae21-432972c65ceb)
 
 #### Themes
 
