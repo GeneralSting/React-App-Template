@@ -1,4 +1,5 @@
-import { defaultTheme, themes } from "./appThemes/themes";
+import { lightIncreasedCode } from "./appThemes/lightIncreased";
+import { defaultTheme, appThemes } from "./appThemes/themes";
 import getTheme from "./utils/getTheme";
 
-export { themes, defaultTheme, getTheme };
+export { appThemes, defaultTheme, getTheme, lightIncreasedCode };

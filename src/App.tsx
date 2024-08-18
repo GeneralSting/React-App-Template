@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import appRoutes from "./routes/AppRoutes";
 import CssBaseline from "@mui/material/CssBaseline";
 import { Grid, ThemeProvider } from "@mui/material";
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
 import { useAppSelector } from "./hooks/storeHooks";
 import { getTheme } from "./features/themes";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   const appTheme = useAppSelector((state) => state.options.appTheme);
@@ -27,9 +27,11 @@ function App() {
             display="flex"
             justifyContent="center"
             alignItems="center"
+            mt={4}
+            mb={4}
           >
             <Routes>
-              {appRoutes.map((route, index) => (
+              {AppRoutes().map((route, index) => (
                 <Route key={index} path={route.path} element={route.element} />
               ))}
             </Routes>

@@ -23,6 +23,16 @@
       "languageLabel": "Language"
     }
   },
+  "pages": {
+    "test-1": {
+      "routeName": "page-test-1",
+      "text": "This is page: Test-1"
+    },
+    "test-2": {
+      "routeName": "page-test-2",
+      "text": "This is page: Test-2"
+    }
+  },
   "main": {
     "hello": "Hello World"
   },

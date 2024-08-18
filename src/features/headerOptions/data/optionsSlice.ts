@@ -17,16 +17,16 @@ export const optionsSlice = createSlice({
   initialState,
   reducers: {
     setAppTheme: (state, action) => {
-      state.appTheme = action.payload
+      state.appTheme = action.payload;
       themeStorage.setValue(action.payload);
     },
     setLanguage: (state, action) => {
-      state.language = action.payload
+      state.language = action.payload;
       languageStorage.setValue(action.payload);
-      i18n.changeLanguage(action.payload)
-    }
-  }
-})
+      i18n.changeLanguage(action.payload);
+    },
+  },
+});
 
 export const { setAppTheme, setLanguage } = optionsSlice.actions;
 export default optionsSlice.reducer;

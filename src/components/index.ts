@@ -1,5 +1,13 @@
-import ErrorMsg from "./ErrorMsg";
-import LoadingMsg from "./LoadingMsg";
-import NoDataMsg from "./NoDataMsg";
+import Copyright from "./layout/Copyright";
+import LoadingMsg from "./dataStatus/LoadingMsg";
+import NavigationCompact from "./layout/NavigationCompact";
+import NavigationStandard from "./layout/NavigationStandard";
+import FallbackImage from "./dataStatus/FallbackImage";
 
-export { ErrorMsg, LoadingMsg, NoDataMsg };
+export {
+  Copyright,
+  LoadingMsg,
+  NavigationStandard,
+  NavigationCompact,
+  FallbackImage,
+};

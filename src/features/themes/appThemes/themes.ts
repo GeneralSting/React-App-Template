@@ -1,5 +1,4 @@
 import i18next from "i18next";
-import { ThemeMenu } from "../types/themeMenu";
 import { dark, darkCode, darkName } from "./dark";
 import { light, lightCode, lightName } from "./light";
 import {
@@ -8,8 +7,9 @@ import {
   lightIncreasedName,
 } from "./lightIncreased";
 import { solarized, solarizedCode, solarizedName } from "./solarized";
+import { AppTheme } from "../types/appTheme";
 
-const createThemes = (): ThemeMenu[] => {
+const createThemes = (): AppTheme[] => {
   return [
     // first theme object will be default theme
     {
@@ -35,12 +35,12 @@ const createThemes = (): ThemeMenu[] => {
   ];
 };
 
-let themes: ThemeMenu[] = createThemes();
+let appThemes: AppTheme[] = createThemes();
 
 i18next.on("languageChanged", () => {
-  themes = createThemes();
+  appThemes = createThemes();
 });
 
-const defaultTheme = themes[0].code;
+const defaultTheme = appThemes[0].code;
 
-export { themes, defaultTheme };
+export { appThemes, defaultTheme };

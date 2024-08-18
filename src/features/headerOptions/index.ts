@@ -1,4 +1,4 @@
-import OptionsIcon from "./components/OptionsIcon";
+import UserPreferencesBtn from "./components/UserPreferencesBtn";
 import optionsSlice from "./data/optionsSlice";
 
-export { OptionsIcon, optionsSlice };
+export { UserPreferencesBtn, optionsSlice };

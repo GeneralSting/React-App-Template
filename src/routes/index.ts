@@ -1,3 +1,4 @@
-import appRoutes from "./AppRoutes";
+import AppRoutes from "./AppRoutes";
+import { ROOT_PATH } from "./urlPaths";
 
-export { appRoutes };
+export { AppRoutes, ROOT_PATH };

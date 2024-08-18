@@ -1,7 +1,9 @@
 import { Theme, createTheme, responsiveFontSizes } from "@mui/material";
 import i18next from "i18next";
+import { baseTheme } from "./baseTheme";
 
 export const lightIncreasedTheme: Theme = createTheme({
+  ...baseTheme,
   palette: {
     background: {
       paper: "#f2f2f2",

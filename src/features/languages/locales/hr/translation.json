@@ -23,6 +23,16 @@
       "languageLabel": "Jezik"
     }
   },
+  "pages": {
+    "test-1": {
+      "routeName": "stranica-test-1",
+      "text": "Ovo je stranica: Test-1"
+    },
+    "test-2": {
+      "routeName": "stranica-test-2",
+      "text": "Ovo je stranica: Test-2"
+    }
+  },
   "main": {
     "hello": "Pozdrav svijete"
   },

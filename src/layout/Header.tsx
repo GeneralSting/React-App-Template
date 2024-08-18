@@ -1,43 +1,40 @@
-import { AppBar, Grid, Toolbar, Typography } from "@mui/material";
-import { OptionsIcon } from "../features/headerOptions";
 import { useTranslation } from "react-i18next";
+import { AppRoutes, ROOT_PATH } from "../routes";
+import { UserPreferencesBtn } from "../features/headerOptions";
+import {
+  AppBar,
+  Container,
+  Toolbar,
+  useMediaQuery,
+  useTheme,
+} from "@mui/material";
+import { NavigationCompact, NavigationStandard } from "../components";
 
 const Header = () => {
   const { t } = useTranslation();
+  const theme = useTheme();
+  const isBreakpointSmall = useMediaQuery(theme.breakpoints.down("md"));
+
   return (
     <AppBar position="static">
-      <Toolbar variant="dense">
-        <Grid container>
-          <Grid
-            item
-            xs={3}
-            display="flex"
-            justifyContent="center"
-            alignItems="center"
-          >
-            <OptionsIcon />
-          </Grid>
-          <Grid
-            item
-            xs={6}
-            display="flex"
-            justifyContent="center"
-            alignItems="center"
-            textAlign="center"
-          >
-            <Typography variant="h4" color="inherit" component="h4" noWrap>
-              {t("header.title")}
-            </Typography>
-          </Grid>
-          <Grid
-            item
-            xs={3}
-            display="flex"
-            justifyContent="center"
-            alignItems="center"
-          ></Grid>
-        </Grid>
-      </Toolbar>
+      <Container maxWidth="xl">
+        <Toolbar disableGutters>
+          {isBreakpointSmall ? (
+            <NavigationCompact
+              title={t("header.titleShort")}
+              urlPath={ROOT_PATH}
+              headerRoutes={AppRoutes()}
+            />
+          ) : (
+            <NavigationStandard
+              title={t("header.title")}
+              urlPath={ROOT_PATH}
+              headerRoutes={AppRoutes()}
+            />
+          )}
+          <UserPreferencesBtn />
+        </Toolbar>
+      </Container>
     </AppBar>
   );
 };
